@@ -1,0 +1,6 @@
+{
+  "name": "ITQAN — Intelligent English Learning Platform",
+  "description": "Comprehensive, bilingual English learning platform with school curricula for Yemen (Hadramout & Aden) and Arab countries, personalized content library, general English, and rule-based Gray AI Cat companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

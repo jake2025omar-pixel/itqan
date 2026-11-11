@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#FFFFFF"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="#F5F0E8" stroke="#EEE7DC" stroke-width="8"/>
+  <!-- Elegant minimalist cat silhouette with book/graduation motif -->
+  <g transform="translate(106, 96)">
+    <!-- Cat Ears -->
+    <polygon points="40,110 75,30 115,90" fill="#9CA3AF" />
+    <polygon points="50,100 75,45 105,85" fill="#E5E7EB" />
+    <polygon points="260,110 225,30 185,90" fill="#9CA3AF" />
+    <polygon points="250,100 225,45 195,85" fill="#E5E7EB" />
+    <!-- Cat Head -->
+    <path d="M 60,150 C 40,210 80,260 150,260 C 220,260 260,210 240,150 C 230,100 70,100 60,150 Z" fill="#9CA3AF"/>
+    <!-- Cat Face details -->
+    <!-- Eyes -->
+    <ellipse cx="105" cy="155" rx="14" ry="18" fill="#1F2937" />
+    <circle cx="102" cy="150" r="5" fill="#FFFFFF" />
+    <ellipse cx="195" cy="155" rx="14" ry="18" fill="#1F2937" />
+    <circle cx="192" cy="150" r="5" fill="#FFFFFF" />
+    <!-- Cheeks & Nose -->
+    <ellipse cx="150" cy="180" rx="6" ry="4" fill="#6B7280" />
+    <path d="M 150,184 Q 140,196 130,192 M 150,184 Q 160,196 170,192" stroke="#4B5563" stroke-width="3" fill="none" stroke-linecap="round" />
+    <!-- Whiskers -->
+    <line x1="50" y1="170" x2="90" y2="175" stroke="#D1D5DB" stroke-width="3" stroke-linecap="round" />
+    <line x1="45" y1="185" x2="88" y2="185" stroke="#D1D5DB" stroke-width="3" stroke-linecap="round" />
+    <line x1="250" y1="170" x2="210" y2="175" stroke="#D1D5DB" stroke-width="3" stroke-linecap="round" />
+    <line x1="255" y1="185" x2="212" y2="185" stroke="#D1D5DB" stroke-width="3" stroke-linecap="round" />
+    <!-- Open Book under cat -->
+    <path d="M 50,265 Q 150,240 150,290 Q 150,240 250,265 L 250,310 Q 150,285 150,335 Q 150,285 50,310 Z" fill="#EEE7DC" stroke="#D1C7B7" stroke-width="4"/>
+    <line x1="150" y1="260" x2="150" y2="335" stroke="#B8A995" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

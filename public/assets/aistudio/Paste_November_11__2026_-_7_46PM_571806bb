@@ -1,0 +1,1103 @@
+MASTER SOFTWARE ENGINEERING PROMPT
+
+PROJECT: ITQAN — Intelligent English Learning Platform
+
+1. YOUR ROLE AND ENGINEERING RESPONSIBILITIES
+
+Act as a world-class Senior Software Architect, Full-Stack Engineer, UI/UX Designer, Database Architect, Educational Technology Specialist, and Software Quality Engineer with 30 years of equivalent professional engineering experience.
+
+Your mission is to design, architect, and build a complete, production-oriented English learning platform called ITQAN (إتقان).
+
+Do not approach this project as a simple landing page, a visual prototype, or a basic educational demo.
+
+Build a real, functional, scalable educational platform with working learning systems, interactive exercises, content management, progress tracking, curriculum organization, and a built-in intelligent virtual companion.
+
+You are responsible for:
+
+- Architecture and technical planning.
+- Frontend and backend implementation.
+- Database design and data integrity.
+- Responsive UI/UX implementation.
+- Educational content organization.
+- Functional testing and debugging.
+- Performance and security optimization.
+- Long-term scalability and maintainability.
+
+Critical rule: Do not sacrifice functionality for visual appearance. Every visible button, menu, lesson, exercise, and navigation element must perform its intended function.
+
+Do not use fake functionality, empty buttons, static dashboard statistics, or decorative controls pretending to be working features.
+
+---
+
+2. PROJECT VISION
+
+ITQAN is a comprehensive English-learning ecosystem designed primarily for Arabic-speaking students, with special attention to the educational curricula of Yemen, particularly:
+
+- Hadramout Governorate.
+- Aden Governorate.
+- Other Yemeni governorates.
+- Other Arab countries.
+
+The platform must allow users to learn English through three independent learning systems:
+
+1. Learn My Own Content.
+2. Learn Through School Curricula.
+3. Interactive General English Learning.
+
+The ultimate objective is to create an educational environment where students can learn vocabulary, sentences, grammar, pronunciation, listening, spelling, reading, and writing through different interactive learning experiences.
+
+The platform must support Arabic and English as complete interface languages.
+
+---
+
+3. VISUAL IDENTITY AND DESIGN SYSTEM
+
+Design direction
+
+Create an exceptionally polished, modern, minimal, premium educational interface.
+
+The design must feel:
+
+- Elegant.
+- Clean.
+- Modern.
+- Friendly.
+- Professional.
+- Comfortable for long learning sessions.
+- Extremely easy to navigate.
+
+Strict color palette
+
+Use ONLY the following visual direction:
+
+Primary color:
+
+- Pure White: #FFFFFF.
+
+Secondary color:
+
+- Very Light Beige: #F5F0E8.
+- Soft Beige: #EEE7DC.
+
+Supporting neutral colors:
+
+- Soft gray for secondary text.
+- Subtle gray borders where necessary.
+
+White must dominate the entire interface.
+
+Use light beige sparingly for:
+
+- Primary action buttons.
+- Selected navigation items.
+- Small decorative backgrounds.
+- Learning cards.
+- Subtle highlights.
+- Progress indicators.
+
+Do not introduce purple, blue, green, red, dark themes, or colorful gradients as part of the primary visual identity.
+
+Avoid excessive decorations, unnecessary animations, heavy shadows, and visually crowded layouts.
+
+Interface quality
+
+Use:
+
+- Modern typography.
+- Beautiful spacing.
+- Rounded corners.
+- Soft shadows.
+- Consistent component sizing.
+- Smooth transitions.
+- Elegant icons.
+- Clear visual hierarchy.
+- Responsive cards.
+- Carefully designed empty states.
+
+The design should resemble a premium modern educational SaaS product.
+
+Responsive requirements
+
+The platform must work perfectly on:
+
+- Android phones.
+- iPhones.
+- Tablets.
+- Desktop computers.
+- Large screens.
+
+Mobile-first design is mandatory.
+
+Do not create desktop layouts that become difficult to use on mobile devices.
+
+---
+
+4. MULTILINGUAL SYSTEM
+
+Implement complete bilingual support.
+
+Languages:
+
+1. Arabic.
+2. English.
+
+Requirements:
+
+- Arabic must use full RTL layout.
+- English must use full LTR layout.
+- All menus, buttons, instructions, lessons, settings, and dashboards must support both languages.
+- Switching languages must immediately update the entire interface.
+- Save the user's preferred language.
+- Use appropriate Arabic typography.
+- Prevent broken text alignment and mixed-direction layout issues.
+
+The language selector must be easily accessible.
+
+The educational content must preserve English words and sentences correctly even inside Arabic interfaces.
+
+---
+
+5. MAIN DASHBOARD
+
+Create a beautiful and simple homepage.
+
+The dashboard should include:
+
+- ITQAN logo.
+- User profile.
+- Learning progress.
+- Daily learning goal.
+- Words learned.
+- Completed lessons.
+- Current learning streak.
+- Continue Learning button.
+- Three main learning methods.
+- Virtual AI cat companion.
+
+Three main learning cards
+
+Card 1: Learn My Own Content.
+
+Card 2: Learn Through School Curricula.
+
+Card 3: Interactive General Learning.
+
+Each card must have:
+
+- A beautiful icon.
+- A short description.
+- A clear action button.
+- A subtle hover and click interaction.
+
+The user should immediately understand the purpose of each learning method.
+
+Keep navigation extremely simple.
+
+---
+
+6. LEARNING METHOD ONE: LEARN MY OWN CONTENT
+
+Concept
+
+Allow users to create their own unlimited personalized English learning library.
+
+Users can add anything they want to study for examinations, including:
+
+- Individual vocabulary.
+- English sentences.
+- Paragraphs.
+- Dialogues.
+- Complete lessons.
+- Grammar notes.
+- Exam preparation material.
+
+Content input
+
+Provide:
+
+- A large multi-line text editor.
+- Individual word entry.
+- Sentence entry.
+- Bulk content import.
+- PDF upload.
+- DOCX upload.
+- TXT upload.
+
+Allow users to organize their content into:
+
+- Subjects.
+- Units.
+- Lessons.
+- Chapters.
+- Custom collections.
+
+There should be no arbitrary small content limit imposed by the educational system.
+
+Use scalable storage, pagination, background processing, and efficient indexing.
+
+Automatic content analysis
+
+When a user imports content, analyze it and identify:
+
+- English vocabulary.
+- Arabic translations when available.
+- Sentences.
+- Phrases.
+- Grammar structures.
+- Word types.
+- Pronunciation.
+- Contextual meanings.
+
+Store the original content without losing information.
+
+Do not invent translations or pretend that uncertain information is verified.
+
+Interactive learning modes
+
+Every imported lesson must be usable through the following exercises:
+
+1. Listening
+
+Play an English word or sentence using text-to-speech.
+
+The student listens and answers comprehension questions.
+
+2. Spelling
+
+Play an English word and ask the student to type its correct spelling.
+
+3. Sentence Selection
+
+Display multiple sentences and ask the student to select the sentence that matches the given meaning or context.
+
+4. Word Matching
+
+Connect English vocabulary with Arabic translations.
+
+5. Fill in the Blanks
+
+Display sentences with missing words and ask the student to complete them.
+
+6. Underline the Correct Word
+
+Display a sentence with multiple possible words and ask the student to identify the correct one.
+
+7. Pronunciation
+
+Allow the student to speak an English word or sentence.
+
+Use browser speech recognition when supported to evaluate the spoken response.
+
+Provide useful pronunciation feedback.
+
+8. Word Ordering
+
+Display scrambled words and ask the student to arrange them into a correct sentence.
+
+9. Translation Practice
+
+Translate from Arabic to English and English to Arabic.
+
+10. Writing Practice
+
+Allow users to write sentences and receive automatic feedback on spelling and grammar.
+
+Important
+
+All exercise types must be generated from the user's actual imported content.
+
+Do not introduce unrelated vocabulary into a custom examination preparation session unless the user explicitly requests it.
+
+---
+
+7. LEARNING METHOD TWO: SCHOOL CURRICULUM LEARNING
+
+Concept
+
+Build a comprehensive curriculum-based English learning library for Arab students.
+
+The system must organize educational content accurately according to each country's official educational structure.
+
+Step 1: Country selection
+
+Create a country selection interface containing Arab countries.
+
+Give special visual priority to Yemen.
+
+For Yemen, provide:
+
+- Hadramout.
+- Aden.
+- Sana'a.
+- Taiz.
+- Other governorates.
+
+The user must select their country before accessing curriculum-specific lessons.
+
+Important curriculum accuracy requirement
+
+Different countries may use different educational systems, textbooks, lesson structures, and examination requirements.
+
+Never assume that one country's curriculum applies to another country.
+
+Never label generic English content as an official school curriculum.
+
+Only classify educational material as officially verified when supported by an identifiable authoritative source.
+
+If a curriculum is unavailable or unverified, clearly communicate this to the student instead of inventing lessons.
+
+Step 2: Educational stage
+
+Provide:
+
+- Primary Education.
+- Middle School / Preparatory Education.
+- Secondary Education.
+- University Education.
+
+Step 3: Grade selection
+
+Dynamically display grades according to the selected country and educational stage.
+
+Examples:
+
+Primary:
+
+- Grade 1.
+- Grade 2.
+- Grade 3.
+- Grade 4.
+- Grade 5.
+- Grade 6.
+
+Middle School:
+
+- Grades according to the selected country's educational structure.
+
+Secondary:
+
+- First Secondary.
+- Second Secondary.
+- Third Secondary.
+
+University:
+
+- English Language.
+- Translation.
+- Engineering.
+- Medicine.
+- Business Administration.
+- Other academic specializations.
+
+Do not force the same grade structure on every country.
+
+Step 4: Semester selection
+
+Provide:
+
+- First Semester.
+- Second Semester.
+- Summer Semester, when applicable.
+
+Step 5: Curriculum and lesson library
+
+Display lessons belonging to the exact selected curriculum.
+
+Each lesson should contain:
+
+- Vocabulary.
+- Arabic meanings.
+- English definitions.
+- Pronunciation.
+- Example sentences.
+- Grammar.
+- Dialogues.
+- Reading passages.
+- Listening activities.
+- Writing exercises.
+- Spelling tests.
+- Unit examinations.
+- Final assessments.
+
+Yemen curriculum priority
+
+Develop a dedicated curriculum architecture for Yemen.
+
+Give special priority to:
+
+- Hadramout educational requirements.
+- Aden educational requirements.
+- Primary English textbooks.
+- Secondary English textbooks.
+- Semester-based lesson organization.
+- Examination preparation.
+
+Where Hadramout and Aden follow the same official textbook, do not fabricate differences. Where verified differences exist, represent them accurately.
+
+Curriculum administration
+
+Build an administrative content management system that allows authorized administrators to:
+
+- Add countries.
+- Add educational stages.
+- Add grades.
+- Add semesters.
+- Add textbooks.
+- Add units.
+- Add lessons.
+- Upload educational files.
+- Edit translations.
+- Correct vocabulary.
+- Update curriculum versions.
+- Mark content as verified or unverified.
+
+Each curriculum record must include:
+
+- Country.
+- Region, where relevant.
+- Educational stage.
+- Grade.
+- Semester.
+- Academic year.
+- Textbook name.
+- Source or reference.
+- Verification status.
+- Version information.
+
+The curriculum database must support annual updates without damaging existing student progress.
+
+---
+
+8. LEARNING METHOD THREE: INTERACTIVE GENERAL ENGLISH
+
+Concept
+
+Build an engaging learning experience inspired by the educational interaction patterns of Duolingo.
+
+Do not copy its branding, assets, or copyrighted interface.
+
+The experience should be original to ITQAN.
+
+Step 1: Difficulty selection
+
+Provide three levels:
+
+Beginner — Easy
+
+For students who are starting from zero.
+
+Intermediate — Medium
+
+For students who understand basic English and want to improve.
+
+Advanced — Hard
+
+For students who want advanced vocabulary, grammar, reading, and communication skills.
+
+Step 2: Learning paths
+
+Organize the content into:
+
+- Learning levels.
+- Units.
+- Lessons.
+- Skills.
+- Review sessions.
+- Assessments.
+
+Each lesson should be short, focused, and interactive.
+
+Exercise types
+
+Implement:
+
+- Word translation.
+- Sentence translation.
+- Listening comprehension.
+- Spelling.
+- Word matching.
+- Sentence ordering.
+- Multiple-choice questions.
+- Fill in the blanks.
+- Pronunciation practice.
+- Reading comprehension.
+- Grammar challenges.
+- Interactive conversations.
+
+Gamification
+
+Include:
+
+- XP points.
+- Daily streaks.
+- Achievement badges.
+- Daily learning goals.
+- Weekly challenges.
+- Learning milestones.
+- Leaderboards, when enabled.
+- Hearts or attempts system, optionally configurable.
+
+All rewards must be connected to real learning activities and actual student progress.
+
+---
+
+9. THE GRAY AI CAT COMPANION
+
+Character identity
+
+Create a friendly virtual educational companion.
+
+The character must be a small, cute, gray cat.
+
+It is an important part of the ITQAN identity.
+
+Visual appearance
+
+The cat should have:
+
+- Soft gray fur.
+- Friendly eyes.
+- A clean and minimal appearance.
+- A pleasant facial expression.
+- A recognizable silhouette.
+- A simple, attractive design.
+
+Use a lightweight 2D character or optimized animated illustration.
+
+Do not use expensive 3D models or complicated rendering.
+
+Character interactions
+
+The cat should have simple interactive behaviors:
+
+- Idle animation.
+- Blinking.
+- Looking toward the user.
+- Happy reaction when an answer is correct.
+- Sad or disappointed reaction when an answer is incorrect.
+- Small celebratory movement after completing a lesson.
+- Greeting animation.
+- Thinking animation.
+- Encouraging expressions.
+
+The character must be lightweight and optimized for mobile devices.
+
+AI CAT: RULE-BASED INTELLIGENCE ENGINE
+
+This is a critical technical requirement.
+
+Do NOT implement a real external AI language model for the cat.
+
+Do NOT require OpenAI, Gemini, Claude, or any paid AI API.
+
+Instead, build a lightweight educational intelligence engine using ordinary programming code.
+
+The system should combine:
+
+1. Rule-based logic.
+2. A structured English knowledge database.
+3. Keyword recognition.
+4. Intent detection.
+5. Search and retrieval.
+6. Predefined response templates.
+7. Basic linguistic analysis.
+
+The cat must be able to answer English-related questions by retrieving relevant information from the platform's internal educational knowledge database.
+
+Example questions
+
+User: What does "Beautiful" mean?
+
+Cat: Beautiful means جميل or جميلة. Example: She has a beautiful dress.
+
+User: What is the difference between "Was" and "Were"?
+
+Cat: Use Was with I, he, she, and it. Use Were with you, we, and they.
+
+User: How do I spell "Necessary"?
+
+Cat: N-E-C-E-S-S-A-R-Y.
+
+User: What is the past tense of "Go"?
+
+Cat: The past tense of Go is Went.
+
+Knowledge retrieval architecture
+
+Create searchable knowledge collections containing:
+
+- Vocabulary.
+- Definitions.
+- Translations.
+- Synonyms.
+- Antonyms.
+- Grammar rules.
+- Verb conjugations.
+- Example sentences.
+- Pronunciation information.
+- Common mistakes.
+- Educational explanations.
+
+When a user asks a question:
+
+1. Detect the user's intent.
+2. Identify relevant keywords.
+3. Search the internal knowledge database.
+4. Retrieve the best matching information.
+5. Construct a suitable response.
+6. Display the response in Arabic or English according to the interface language.
+
+Support approximate keyword matching and related-word lookup.
+
+Use structured indexes and efficient retrieval methods.
+
+Honesty requirement
+
+The cat must never pretend to know something that does not exist in its knowledge database.
+
+If it cannot find a reliable answer, it should say:
+
+"I don't have enough verified information to answer this question yet. Try asking in another way."
+
+The cat should be educational, predictable, lightweight, and useful.
+
+It is not a general-purpose chatbot.
+
+Chat interface
+
+Provide a small floating cat button.
+
+Clicking it opens a clean chat panel.
+
+The panel should contain:
+
+- The cat's avatar.
+- A message area.
+- A text input.
+- A send button.
+- Suggested educational questions.
+
+The cat must also be able to provide contextual assistance during lessons.
+
+---
+
+10. MASSIVE ENGLISH KNOWLEDGE DATABASE
+
+Long-term vision
+
+ITQAN must be designed to support an extremely large English educational knowledge ecosystem.
+
+The long-term vision is to support billions and potentially trillions of indexed educational records and learning relationships as infrastructure and storage capacity grow.
+
+However, never fabricate records or claim that the platform already contains trillions of verified words.
+
+Build the architecture to expand incrementally.
+
+Knowledge categories
+
+Organize information into:
+
+1. Basic English.
+2. Everyday Vocabulary.
+3. Academic English.
+4. School Vocabulary.
+5. University English.
+6. Medical English.
+7. Engineering English.
+8. Business English.
+9. Scientific English.
+10. Travel English.
+11. Technology English.
+12. Advanced English.
+13. Grammar.
+14. Phrasal Verbs.
+15. Idioms.
+16. Pronunciation.
+17. Common Expressions.
+18. Reading Materials.
+19. Listening Materials.
+20. Educational Curricula.
+
+Vocabulary record structure
+
+Each vocabulary record should support:
+
+- English word.
+- Arabic translation.
+- English definition.
+- Arabic explanation.
+- IPA pronunciation.
+- Audio reference.
+- Part of speech.
+- Difficulty level.
+- CEFR classification.
+- Synonyms.
+- Antonyms.
+- Example sentences.
+- Related vocabulary.
+- Learning category.
+- Source.
+- Verification status.
+
+Avoid duplicate records.
+
+Support content versioning and efficient indexing.
+
+Use pagination and lazy loading instead of loading the entire database into the browser.
+
+---
+
+11. LEARNING PROGRESS AND PERSONALIZATION
+
+Build a real student progress system.
+
+Track:
+
+- Words learned.
+- Words mastered.
+- Words needing revision.
+- Lessons completed.
+- Exercises completed.
+- Correct answers.
+- Incorrect answers.
+- Listening performance.
+- Spelling performance.
+- Pronunciation performance.
+- Learning streak.
+- Total XP.
+- Learning time.
+
+Spaced repetition
+
+Implement a spaced repetition system.
+
+Words that students frequently get wrong should appear more often.
+
+Words that students consistently answer correctly should appear less frequently.
+
+Create a review queue based on learning performance.
+
+Personal learning dashboard
+
+Display:
+
+- Current learning level.
+- Daily progress.
+- Weekly progress.
+- Vocabulary mastery.
+- Weak areas.
+- Recommended lessons.
+- Upcoming reviews.
+
+All statistics must be calculated from real stored student activity.
+
+---
+
+12. USER ACCOUNTS AND DATA MANAGEMENT
+
+Implement secure user accounts.
+
+Support:
+
+- Registration.
+- Login.
+- Logout.
+- Password management.
+- User profile.
+- Learning preferences.
+- Language settings.
+- Progress synchronization.
+
+Each student must have an independent learning profile.
+
+Students must never see another student's private learning records.
+
+Use secure authentication and proper authorization.
+
+---
+
+13. OFFLINE LEARNING
+
+Design the platform as a Progressive Web App where practical.
+
+Allow users to:
+
+- Install ITQAN on supported devices.
+- Cache selected lessons.
+- Access downloaded vocabulary offline.
+- Complete supported exercises without internet.
+- Synchronize learning progress when connectivity returns.
+
+Handle synchronization conflicts safely.
+
+Do not promise offline features that have not been implemented and tested.
+
+---
+
+14. TECHNICAL ARCHITECTURE
+
+Choose a maintainable, scalable architecture.
+
+Preferred technology stack:
+
+Frontend
+
+- React.
+- TypeScript.
+- Modern CSS.
+- Reusable UI components.
+- Responsive design.
+- Progressive Web App capabilities.
+
+Backend
+
+Use a suitable backend architecture for authentication, learning progress, curriculum management, and content processing.
+
+Database
+
+Prefer PostgreSQL for structured educational information and student records.
+
+Use efficient full-text search and indexing.
+
+Additional search infrastructure may be introduced when justified by scale.
+
+File storage
+
+Use secure storage for uploaded textbooks, documents, and audio resources.
+
+Text-to-speech
+
+Use browser-supported speech synthesis when available.
+
+Provide alternative handling when browser capabilities are unavailable.
+
+Speech recognition
+
+Use browser speech recognition when supported, with clear fallback behavior.
+
+Architecture requirements
+
+Separate the application into logical modules:
+
+- Authentication.
+- User Management.
+- Vocabulary.
+- Lessons.
+- Curricula.
+- Exercises.
+- Assessment.
+- Progress Tracking.
+- Spaced Repetition.
+- Audio.
+- AI Cat Engine.
+- Notifications.
+- Administration.
+- Content Import.
+
+Keep the application modular and easy to maintain.
+
+Do not place the entire application inside one giant component.
+
+Do not duplicate business logic.
+
+Do not hardcode curriculum data throughout frontend components.
+
+---
+
+15. ADMINISTRATION PANEL
+
+Create a protected administration dashboard.
+
+Authorized administrators should be able to:
+
+- Manage users.
+- Manage vocabulary.
+- Manage translations.
+- Manage learning levels.
+- Manage lessons.
+- Manage exercises.
+- Manage countries.
+- Manage curricula.
+- Upload textbooks.
+- Review imported content.
+- Verify educational sources.
+- Update content.
+- Monitor platform statistics.
+
+Provide role-based permissions.
+
+Administrative operations must be protected.
+
+---
+
+16. SECURITY AND QUALITY REQUIREMENTS
+
+Implement:
+
+- Input validation.
+- Secure authentication.
+- Authorization.
+- Protection against common web vulnerabilities.
+- Safe file uploads.
+- Rate limiting where appropriate.
+- Error handling.
+- Database integrity.
+- Secure environment variable management.
+- Appropriate logging.
+- Backup and recovery strategy.
+
+Never expose API keys or database credentials in frontend code.
+
+---
+
+17. PERFORMANCE AND ACCESSIBILITY
+
+The application must be fast and lightweight.
+
+Prioritize:
+
+- Fast initial loading.
+- Optimized images.
+- Lazy loading.
+- Efficient database queries.
+- Minimal unnecessary dependencies.
+- Mobile performance.
+- Smooth interactions.
+- Accessible buttons and controls.
+- Keyboard navigation.
+- Clear focus states.
+- Readable typography.
+
+The gray cat must not negatively affect page performance.
+
+---
+
+18. DEVELOPMENT AND IMPLEMENTATION RULES
+
+Follow these rules throughout development:
+
+1. Inspect the project structure before making changes.
+2. Establish the architecture before implementing complex features.
+3. Build reusable components.
+4. Implement real database-backed functionality.
+5. Ensure all three learning methods work independently.
+6. Verify Arabic RTL and English LTR behavior.
+7. Test mobile layouts.
+8. Test every exercise type.
+9. Test content importing and processing.
+10. Test the AI cat's retrieval engine.
+11. Test progress calculations.
+12. Fix runtime errors.
+13. Fix broken navigation.
+14. Remove unnecessary placeholder content.
+15. Never claim a feature is complete without testing it.
+
+If a feature requires an external service, identify the dependency and provide a functional alternative where possible.
+
+Do not silently replace a requested feature with a nonfunctional mockup.
+
+---
+
+19. DEVELOPMENT PHASES
+
+Build the platform in controlled engineering phases.
+
+Phase 1 — Foundation
+
+- Project structure.
+- Design system.
+- Bilingual architecture.
+- Navigation.
+- Responsive dashboard.
+
+Phase 2 — Learning Systems
+
+- Custom content learning.
+- Curriculum learning.
+- General interactive learning.
+
+Phase 3 — Educational Engine
+
+- Vocabulary database.
+- Lesson engine.
+- Exercise generation.
+- Spaced repetition.
+- Progress tracking.
+
+Phase 4 — Gray Cat Companion
+
+- Character design.
+- Animations.
+- Rule-based intelligence.
+- Knowledge retrieval.
+- Educational chat interface.
+
+Phase 5 — User and Admin Systems
+
+- Authentication.
+- Profiles.
+- Database integration.
+- Administration panel.
+- Content management.
+
+Phase 6 — Advanced Capabilities
+
+- Offline learning.
+- Audio.
+- Pronunciation.
+- Curriculum expansion.
+- Performance optimization.
+
+Phase 7 — Quality Assurance
+
+- Functional testing.
+- Security checks.
+- Mobile testing.
+- RTL/LTR testing.
+- Bug fixing.
+- Final validation.
+
+Do not skip phases or mark incomplete features as finished.
+
+---
+
+20. FINAL ACCEPTANCE CRITERIA
+
+The project is considered successful only when:
+
+- The complete interface supports Arabic and English.
+- The white and light-beige design system is consistently applied.
+- The three learning methods are functional.
+- Users can import and study their own content.
+- Curriculum navigation works correctly.
+- Country-specific curriculum distinctions are respected.
+- The Yemen curriculum has a dedicated architecture.
+- Hadramout and Aden receive special attention.
+- All major exercise types function correctly.
+- Student progress is saved accurately.
+- Vocabulary review works.
+- The gray cat responds using internal educational knowledge.
+- The cat has working basic interactions and animations.
+- The application works on mobile and desktop.
+- No major navigation or functional errors remain.
+- The architecture supports continuous educational content expansion.
+
+FINAL INSTRUCTION
+
+Build ITQAN as a serious, long-term educational technology product.
+
+Think like an experienced software architect.
+
+Make intelligent technical decisions.
+
+Prioritize educational accuracy, usability, maintainability, and real functionality.
+
+The interface must be beautiful, but the educational engine must be even better.
+
+Do not stop after generating a homepage.
+
+Do not deliver a collection of disconnected screens.
+
+Build a cohesive, integrated educational platform where every major system communicates with the others.
+
+The final product must feel like a complete, premium English-learning platform built specifically for Arabic-speaking students, with a strong educational identity and a special commitment to the Yemeni student.

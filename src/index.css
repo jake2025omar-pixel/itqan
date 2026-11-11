@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-white: #FFFFFF;
+    --bg-beige-light: #F5F0E8;
+    --bg-beige-soft: #EEE7DC;
+    --border-beige: #E6DFD5;
+    --text-primary: #1C1917;
+    --text-secondary: #78716C;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Tajawal', system-ui, -apple-system, sans-serif;
+    background-color: #FFFFFF;
+    color: #1C1917;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* When RTL (Arabic), prioritize Tajawal font */
+  [dir="rtl"] {
+    font-family: 'Tajawal', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F0E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5CCC0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8AC9D;
+}
